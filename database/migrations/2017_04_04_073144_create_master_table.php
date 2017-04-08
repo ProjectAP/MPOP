@@ -40,7 +40,7 @@ class CreateMasterTable extends Migration
             $table->string('description'); // Finish type description
         });
         Schema::create('tbl_unit', function (Blueprint $table) {
-            $table->increaments('id'); // if of unit qty autoincrement
+            $table->increments('id'); // if of unit qty autoincrement
             $table->string('name'); // unit qty name
             $table->string('description'); // unit qty description
         });

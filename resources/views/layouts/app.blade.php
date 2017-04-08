@@ -35,7 +35,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- END GLOBAL MANDATORY STYLES -->
         
         <!-- BEGIN PAGE LEVEL PLUGINS -->
-        @yield('page-level-plugins')
+        @yield('style-page-level-plugins')
         <!-- END PAGE LEVEL PLUGINS -->
 
         <!-- BEGIN THEME GLOBAL STYLES -->
@@ -772,6 +772,9 @@ License: You must have a valid license purchased only from themeforest(the above
         <script src="{{ url('assets/plugins/jquery.blockui.min.js') }}" type="text/javascript"></script>
         <script src="{{ url('assets/plugins/bootstrap-switch/js/bootstrap-switch.min.js') }}" type="text/javascript"></script>
         <!-- END CORE PLUGINS -->
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        @yield('scripts-page-level-plugins')
+        <!-- END PAGE LEVEL SCRIPTS -->
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
         <script src="{{ url('assets/scripts/app.min.js') }}" type="text/javascript"></script>
         <!-- END THEME GLOBAL SCRIPTS -->
