@@ -14,6 +14,7 @@ class CreateScTable extends Migration
     {
         Schema::create('tbl_sc', function (Blueprint $table) {
             $table->string('no'); // no sales contract
+            $table->string('no_po'); // no sales contract
             $table->integer('buyer'); // code buyer
             $table->integer('item'); // code item
             $table->integer('qty'); // quantity

@@ -77,19 +77,19 @@
                     <div class="col-md-4">
                          <div class="form-group">
                             <label class="control-label">Contructions GR</label>
-                            <input type="text" id="firstName" class="form-control" disabled="true" ">
+                            <input type="text" id="firstName" class="form-control" disabled>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
                             <label class="control-label">Contructions Finish</label>
-                             <input type="text" id="firstName" class="form-control" disabled="true" ">
+                             <input type="text" id="firstName" class="form-control" disabled>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
                             <label class="control-label">Compositing</label>
-                             <input type="text" id="firstName" class="form-control" disabled="true" ">
+                             <input type="text" id="firstName" class="form-control" disabled>
                         </div>
                     </div>
                     <!--/span-->
@@ -99,13 +99,13 @@
                 	<div class="col-sm-2">
                 		<div class="form-group">
                             <label class="control-label">Length</label>
-                             <input type="text" id="firstName" class="form-control" disabled="true" ">
+                             <input type="text" id="firstName" class="form-control" disabled="true">
                         </div>
                 	</div>
                 	<div class="col-sm-2">
                 		<div class="form-group">
                             <label class="control-label">Weave</label>
-                             <input type="text" id="firstName" class="form-control" disabled="true" ">
+                             <input type="text" id="firstName" class="form-control" disabled="true">
                         </div>
                 	</div>
                 </div>
@@ -142,7 +142,7 @@
                             <label>Price</label>
                             <input type="text" class="form-control"> </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="form-group">
                             <label>Color</label>
                             <select class="form-control">
@@ -167,28 +167,55 @@
                             </div>
                         </div>
                     </div>
-                   {{--  <div class="col-md-1">
-                        <div class="form-group">
-                        	<label>&nbsp;</label>
-                            <button class="btn green form-control">
-                            	<i class="icon-plus"></i>
-                            </button>
-
-                        </div>
-                    </div>
-                    <div class="col-md-1">
-                        <div class="form-group">
-                        	<label>&nbsp;</label>
-                            <button class="btn red form-control">
-                            	<i class="icon-close"></i>
-                            </button>
-                            
-                        </div>
-                    </div> --}}
                 </div>
-                {{-- <div class="row">
-                	<div class="col-sm-1"><button class="btn green">Tambah</button></div>
-                </div> --}}
+                <!--/row-->
+                {{--<h3 class="form-section">Detail Delivery</h3>--}}
+                {{--<div class="row">--}}
+                    {{--<div class="col-md-2">--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label>Currency</label>--}}
+                            {{--<input type="text" class="form-control">--}}
+                    {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-md-3">--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label>Quantity</label>--}}
+                            {{--<input type="text" class="form-control"> </div>--}}
+                    {{--</div>--}}
+
+                    {{--<div class="col-md-2">--}}
+                        {{--<div class="form-group" style="margin-top: 23px;">--}}
+                            {{--<div class="btn-group">--}}
+                                {{--<a href="javascript:;" class="btn green" data-toggle="dropdown">--}}
+                                    {{--<i class="fa fa-cog"></i> Action--}}
+                                    {{--<i class="fa fa-angle-down"></i>--}}
+                                {{--</a>--}}
+                                {{--<ul class="dropdown-menu">--}}
+                                    {{--<li><a href="javascript:;" id="priceAdd"><i class="fa fa-plus-circle"></i>Add</a></li>--}}
+                                    {{--<li><a href="javascript:;" id="priceDel"><i class="fa fa-minus-circle"></i>Delete</a></li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--  <div class="col-md-1">--}}
+                         {{--<div class="form-group">--}}
+                             {{--<label>&nbsp;</label>--}}
+                             {{--<button class="btn green form-control">--}}
+                                 {{--<i class="icon-plus"></i>--}}
+                             {{--</button>--}}
+
+                         {{--</div>--}}
+                     {{--</div>--}}
+                     {{--<div class="col-md-1">--}}
+                         {{--<div class="form-group">--}}
+                             {{--<label>&nbsp;</label>--}}
+                             {{--<button class="btn red form-control">--}}
+                                 {{--<i class="icon-close"></i>--}}
+                             {{--</button>--}}
+
+                         {{--</div>--}}
+                     {{--</div> --}}
+                {{--</div>--}}
                 <h3 class="form-section">Detail Contract</h3>
                 <div class="row">
                 	<div class="col-md-2">
@@ -209,13 +236,13 @@
                     </div>
                 </div>
                 <div class="row">
-                	<div class="col-md-2">
-                        <div class="form-group">
-                            <label>Delivery Date</label>
-                            <input type="text" class="form-control">
-                    	</div>
-                    </div>
-                    <div class="col-md-3">
+                	{{--<div class="col-md-2">--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label>Delivery Date</label>--}}
+                            {{--<input type="text" class="form-control">--}}
+                    	{{--</div>--}}
+                    {{--</div>--}}
+                    <div class="col-md-2">
                         <div class="form-group">
                             <label>Payment</label> 
                             <select name="no_contract" id="" class="form-control">
@@ -232,16 +259,16 @@
                             <input type="text" class="form-control">
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <label>Status</label> 
-                            <select name="no_contract" id="" class="form-control">
-                            	<option value=""> - </option>
-                            	<option value="">LOCAL</option>
-                            	<option value="">EXPORT</option>
-                            </select>
-                        </div>
-                    </div>
+                    {{--<div class="col-md-3">--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label>Status</label> --}}
+                            {{--<select name="no_contract" id="" class="form-control">--}}
+                            	{{--<option value=""> - </option>--}}
+                            	{{--<option value="">LOCAL</option>--}}
+                            	{{--<option value="">EXPORT</option>--}}
+                            {{--</select>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
                 </div>
                 <div class="row">
                 	<div class="col-sm-2">
@@ -264,6 +291,53 @@
                 	</div>
                 </div>
                 <!--/row-->
+                <h3 class="form-section">Detail Delivery</h3>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>Date</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Quantity</label>
+                            <input type="text" class="form-control"> </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="form-group" style="margin-top: 23px;">
+                            <div class="btn-group">
+                                <a href="javascript:;" class="btn green" data-toggle="dropdown">
+                                    <i class="fa fa-cog"></i> Action
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:;" id="priceAdd"><i class="fa fa-plus-circle"></i>Add</a></li>
+                                    <li><a href="javascript:;" id="priceDel"><i class="fa fa-minus-circle"></i>Delete</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    {{--  <div class="col-md-1">
+                         <div class="form-group">
+                             <label>&nbsp;</label>
+                             <button class="btn green form-control">
+                                 <i class="icon-plus"></i>
+                             </button>
+
+                         </div>
+                     </div>
+                     <div class="col-md-1">
+                         <div class="form-group">
+                             <label>&nbsp;</label>
+                             <button class="btn red form-control">
+                                 <i class="icon-close"></i>
+                             </button>
+
+                         </div>
+                     </div> --}}
+                </div>
             </div>
             <div class="form-actions right">
                 <button type="button" class="btn default">Cancel</button>
